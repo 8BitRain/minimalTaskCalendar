@@ -14,6 +14,12 @@
 		0703C1381BC989880064C5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0703C1361BC989880064C5CE /* LaunchScreen.storyboard */; };
 		0703C1431BC989880064C5CE /* TaskFirstCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703C1421BC989880064C5CE /* TaskFirstCalendarTests.swift */; };
 		0703C14E1BC989880064C5CE /* TaskFirstCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703C14D1BC989880064C5CE /* TaskFirstCalendarUITests.swift */; };
+		0703C15F1BCAE8CE0064C5CE /* TabMonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703C15E1BCAE8CE0064C5CE /* TabMonController.swift */; settings = {ASSET_TAGS = (); }; };
+		0703C1651BCB06720064C5CE /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703C1641BCB06720064C5CE /* DateCell.swift */; settings = {ASSET_TAGS = (); }; };
+		0703C1691BCC44CC0064C5CE /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703C1681BCC44CC0064C5CE /* EventCell.swift */; settings = {ASSET_TAGS = (); }; };
+		07F2E86C1BD71A040032A27A /* EventOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2E86B1BD71A040032A27A /* EventOverviewController.swift */; settings = {ASSET_TAGS = (); }; };
+		07F2E86E1BD729E90032A27A /* AddEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2E86D1BD729E90032A27A /* AddEventController.swift */; settings = {ASSET_TAGS = (); }; };
+		3EC74DE51FF08955B1522DF0 /* libPods-TaskFirstCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCEB4445C52AB50A3B546F4 /* libPods-TaskFirstCalendar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,15 @@
 		0703C1491BC989880064C5CE /* TaskFirstCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskFirstCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0703C14D1BC989880064C5CE /* TaskFirstCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFirstCalendarUITests.swift; sourceTree = "<group>"; };
 		0703C14F1BC989880064C5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0703C15E1BCAE8CE0064C5CE /* TabMonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabMonController.swift; sourceTree = "<group>"; };
+		0703C1641BCB06720064C5CE /* DateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		0703C1681BCC44CC0064C5CE /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		07B3F5DA1BD1917F00F05E69 /* TaskFirstCalendar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskFirstCalendar-Bridging-Header.h"; sourceTree = "<group>"; };
+		07F2E86B1BD71A040032A27A /* EventOverviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventOverviewController.swift; sourceTree = "<group>"; };
+		07F2E86D1BD729E90032A27A /* AddEventController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddEventController.swift; path = Pods/AddEventController.swift; sourceTree = SOURCE_ROOT; };
+		42BE65CAAF71716221605AFE /* Pods-TaskFirstCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskFirstCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskFirstCalendar/Pods-TaskFirstCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		8CCEB4445C52AB50A3B546F4 /* libPods-TaskFirstCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaskFirstCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB90D2252BBFACE5BD543AB /* Pods-TaskFirstCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskFirstCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskFirstCalendar/Pods-TaskFirstCalendar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC74DE51FF08955B1522DF0 /* libPods-TaskFirstCalendar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,9 @@
 				0703C1411BC989880064C5CE /* TaskFirstCalendarTests */,
 				0703C14C1BC989880064C5CE /* TaskFirstCalendarUITests */,
 				0703C12B1BC989880064C5CE /* Products */,
+				088DB79F2F2F19ABF1A65702 /* Pods */,
+				6ED0057983D736ACAAB9F6D5 /* Frameworks */,
+				07B3F5DA1BD1917F00F05E69 /* TaskFirstCalendar-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +116,11 @@
 		0703C12C1BC989880064C5CE /* TaskFirstCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				07B3F5D51BD18BB000F05E69 /* Assets */,
 				0703C12D1BC989880064C5CE /* AppDelegate.swift */,
-				0703C12F1BC989880064C5CE /* ViewController.swift */,
-				0703C1311BC989880064C5CE /* Main.storyboard */,
+				0703C15B1BCAE67B0064C5CE /* Views */,
+				0703C15C1BCAE7410064C5CE /* Controllers */,
+				0703C15D1BCAE78C0064C5CE /* Models */,
 				0703C1341BC989880064C5CE /* Assets.xcassets */,
 				0703C1361BC989880064C5CE /* LaunchScreen.storyboard */,
 				0703C1391BC989880064C5CE /* Info.plist */,
@@ -125,6 +146,59 @@
 			path = TaskFirstCalendarUITests;
 			sourceTree = "<group>";
 		};
+		0703C15B1BCAE67B0064C5CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0703C1641BCB06720064C5CE /* DateCell.swift */,
+				0703C1311BC989880064C5CE /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0703C15C1BCAE7410064C5CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0703C12F1BC989880064C5CE /* ViewController.swift */,
+				0703C15E1BCAE8CE0064C5CE /* TabMonController.swift */,
+				07F2E86B1BD71A040032A27A /* EventOverviewController.swift */,
+				07F2E86D1BD729E90032A27A /* AddEventController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0703C15D1BCAE78C0064C5CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0703C1681BCC44CC0064C5CE /* EventCell.swift */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		07B3F5D51BD18BB000F05E69 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		088DB79F2F2F19ABF1A65702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFB90D2252BBFACE5BD543AB /* Pods-TaskFirstCalendar.debug.xcconfig */,
+				42BE65CAAF71716221605AFE /* Pods-TaskFirstCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6ED0057983D736ACAAB9F6D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CCEB4445C52AB50A3B546F4 /* libPods-TaskFirstCalendar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0703C1521BC989880064C5CE /* Build configuration list for PBXNativeTarget "TaskFirstCalendar" */;
 			buildPhases = (
+				57D8AE814C822032C425F8E1 /* Check Pods Manifest.lock */,
 				0703C1261BC989880064C5CE /* Sources */,
 				0703C1271BC989880064C5CE /* Frameworks */,
 				0703C1281BC989880064C5CE /* Resources */,
+				51756763A0B4D85ADD222CBA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +263,7 @@
 		0703C1221BC989880064C5CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Eric Smith";
 				TargetAttributes = {
@@ -253,11 +330,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51756763A0B4D85ADD222CBA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskFirstCalendar/Pods-TaskFirstCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57D8AE814C822032C425F8E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0703C1261BC989880064C5CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0703C15F1BCAE8CE0064C5CE /* TabMonController.swift in Sources */,
+				0703C1651BCB06720064C5CE /* DateCell.swift in Sources */,
+				07F2E86E1BD729E90032A27A /* AddEventController.swift in Sources */,
+				07F2E86C1BD71A040032A27A /* EventOverviewController.swift in Sources */,
+				0703C1691BCC44CC0064C5CE /* EventCell.swift in Sources */,
 				0703C1301BC989880064C5CE /* ViewController.swift in Sources */,
 				0703C12E1BC989880064C5CE /* AppDelegate.swift in Sources */,
 			);
@@ -397,23 +512,30 @@
 		};
 		0703C1531BC989880064C5CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB90D2252BBFACE5BD543AB /* Pods-TaskFirstCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TaskFirstCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Flow.TaskFirstCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TaskFirstCalendar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		0703C1541BC989880064C5CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BE65CAAF71716221605AFE /* Pods-TaskFirstCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TaskFirstCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Flow.TaskFirstCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TaskFirstCalendar-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +606,7 @@
 				0703C1541BC989880064C5CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0703C1551BC989880064C5CE /* Build configuration list for PBXNativeTarget "TaskFirstCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +615,7 @@
 				0703C1571BC989880064C5CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0703C1581BC989880064C5CE /* Build configuration list for PBXNativeTarget "TaskFirstCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +624,7 @@
 				0703C15A1BC989880064C5CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
